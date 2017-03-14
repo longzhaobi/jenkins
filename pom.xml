@@ -67,24 +67,6 @@
 	</dependency>
 
 	<dependency>
-		<groupId>org.mybatis</groupId>
-		<artifactId>mybatis</artifactId>
-		<version>${mybatis.version}</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.mybatis</groupId>
-		<artifactId>mybatis-spring</artifactId>
-		<version>1.2.2</version>
-	</dependency>
-
-	<dependency>
-		<groupId>com.alibaba</groupId>
-		<artifactId>druid</artifactId>
-		<version>1.0.9</version>
-	</dependency>
-
-	<dependency>
 		<groupId>org.codehaus.jackson</groupId>
 		<artifactId>jackson-mapper-asl</artifactId>
 		<version>1.9.13</version>
@@ -126,11 +108,7 @@
 		<artifactId>slf4j-log4j12</artifactId>
 		<version>${slf4j.version}</version>
 	</dependency>
-	<dependency>
-		<groupId>mysql</groupId>
-		<artifactId>mysql-connector-java</artifactId>
-		<version>5.1.29</version>
-	</dependency>
+	
 	<dependency>
 		<groupId>org.apache.poi</groupId>
 		<artifactId>poi</artifactId>
@@ -170,7 +148,7 @@
         </plugin>   
          
 	</plugins>
-    <finalName>HelloWorld</finalName>
+    <finalName>jenkins</finalName>
   </build>
   
   <properties>
